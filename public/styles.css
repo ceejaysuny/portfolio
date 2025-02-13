@@ -1,0 +1,67 @@
+/* Custom Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  section {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  #home {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  #nav {    
+    position: fixed;
+  }
+
+  .profile-image {
+    width: 250px; /* Adjust the size as needed */
+    height: 250px; /* Adjust the size as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white; /* Optional: Add a border around the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Responsive Flexbox Layout */
+#about .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    #about .flex {
+        flex-direction: row;
+    }
+}
+
+
+  /*
+  #home {
+    background-image: url('assets/Ceejay.jpg'); 
+    background-size: contain; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+   
+
+    position: relative;
+    z-index: 1;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); 
+    z-index: -1;
+}
+
+ */
+  

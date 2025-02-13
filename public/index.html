@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Software Developer Portfolio">
+  <title>Ekejimbe Chijioke | Software Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  -->
+  <!-- Google Analytics -->
+
+  <!-- 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXX-X');
+  </script>
+</head>
+
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Software Developer Portfolio">
+  <title>Ekejimbe Chijioke | Software Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXX-X');
+  </script>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+
+
+
+  <!-- Navbar -->
+<nav class="fixed top-0 left-0 w-full bg-gray-900 text-white z-50">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center py-4">
+      <!-- Brand -->
+      <a href="#home" class="font-bold text-xl">Ekejimbe Chijioke</a>
+
+      <!-- Hamburger Icon -->
+      <button id="menu-toggle" class="block md:hidden focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+
+      <!-- Nav Links -->
+      <div id="menu" class="hidden md:flex space-x-4">
+        <a href="#about" class="hover:text-gray-400">About</a>
+        <a href="#projects" class="hover:text-gray-400">Projects</a>
+        <a href="#resume" class="hover:text-gray-400">Resume</a>
+        <a href="#blog" class="hover:text-gray-400">Blog</a>
+        <a href="#contact" class="hover:text-gray-400">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-gray-800">
+    <a href="#about" class="block px-4 py-2 hover:bg-gray-700">About</a>
+    <a href="#projects" class="block px-4 py-2 hover:bg-gray-700">Projects</a>
+    <a href="#resume" class="block px-4 py-2 hover:bg-gray-700">Resume</a>
+    <a href="#blog" class="block px-4 py-2 hover:bg-gray-700">Blog</a>
+    <a href="#contact" class="block px-4 py-2 hover:bg-gray-700">Contact</a>
+  </div>
+</nav>
+
+  
+
+  <!-- Home Section -->
+  <!--<section id="home" class="flex flex-col items-center justify-center h-screen bg-gray-800 text-white text-center px-5"> -->
+  <section id="home" class="flex flex-col items-center justify-center h-screen bg-gray-800 text-white text-center px-5 pt-20">
+
+    <h1 class="text-4xl font-bold mb-4">Hi, I'm Ekejimbe Chijioke</h1>
+    <p class="text-lg mb-8">A full-stack developer</p>
+    <a href="#projects" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <!--
+  <section id="about" class="py-16 px-5 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+    <p class="max-w-xl mx-auto">
+      I am certified in Data Science, Software Development,
+       Artificial Intelligence, and Cloud Native Technologies. 
+       A versatile IT professional with a strong technical background. 
+       I am driven by a passion for research and continuous learning to stay 
+       ahead of emerging technologies. An effective communicator 
+       with passion for creating solutions that make life easier and bring value to users
+      
+     </p>
+  </section>
+  -->
+  
+  <!-- About Section -->
+<section id="about" class="py-16 px-5 bg-gray-100">
+  <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+  <div class="flex flex-col md:flex-row items-center justify-center max-w-4xl mx-auto">
+      <div class="md:w-1/3 mb-6 md:mb-0">
+          <img src="assets/Ceejay.jpg" alt="Profile Picture" class="profile-image mx-auto">
+      </div>
+      <div class="md:w-2/3 text-center md:text-left">
+          <p>
+              I am certified in Data Science, Software Development,
+              Artificial Intelligence, and Cloud Native Technologies. 
+              A versatile IT professional with a strong technical background. 
+              I am driven by a passion for research and continuous learning to stay 
+              ahead of emerging technologies. An effective communicator 
+              with passion for creating solutions that make life easier and bring value to users.
+          </p>
+      </div>
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 px-5 bg-white text-center">
+    <h2 class="text-3xl font-bold mb-6">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Example Project -->
+      <div class="bg-gray-200 p-5 rounded-lg shadow-lg transition transform hover:scale-105">
+        <img src="assets/Recommend.png" alt="Project 1" class="mb-4 rounded">
+        <h3 class="text-2xl font-bold mb-2">Product Recommendation Model</h3>
+        <p>Developed a recommendation engine to enhance product discovery in the "All_Beauty" 
+          category using customer reviews and metadata.</p>
+        <a href="https://github.com/ceejaysuny/Product_recommendation" class="text-blue-500 hover:underline mt-4 inline-block">View on GitHub</a>
+      </div>
+      <!-- Add more projects here -->
+
+       <!-- Example Project -->
+       <div class="bg-gray-200 p-5 rounded-lg shadow-lg transition transform hover:scale-105">
+        <img src="assets/project1.png" alt="Project 1" class="mb-4 rounded">
+        <h3 class="text-2xl font-bold mb-2">Telemedicine App</h3>
+        <p>Developed a full-stack telemedicine platform to connect patients with healthcare providers,
+           enabling secure online consultations, appointment booking,
+           and location-based health center discovery..</p>
+        <a href="https://github.com/ceejaysuny/telemedicine_APP" class="text-blue-500 hover:underline mt-4 inline-block">View on GitHub</a>
+      </div>
+
+        <!-- Example Project -->
+        <div class="bg-gray-200 p-5 rounded-lg shadow-lg transition transform hover:scale-105">
+          <img src="assets/Crop_Monitor.png" alt="Project 1" class="mb-4 rounded">
+          <h3 class="text-2xl font-bold mb-2">Crop Monitoring App</h3>
+          <p>Developed a web application that enables farmers to remotely monitor their crops, 
+            integrate real-time sensor data, 
+            weather forecasts, pest detection, and crop health analytics..</p>
+          <a href="https://github.com/ceejaysuny/crop_monitoring" class="text-blue-500 hover:underline mt-4 inline-block">View on GitHub</a>
+        </div>
+
+         <!-- Example Project -->
+         <div class="bg-gray-200 p-5 rounded-lg shadow-lg transition transform hover:scale-105">
+          <img src="assets/Weather_App.png" alt="Project 1" class="mb-4 rounded">
+          <h3 class="text-2xl font-bold mb-2">Weather_App</h3>
+          <p>Developed a simple weather application using Django and WeatherAPI.com 
+            to provide real-time weather updates for any city.</p>
+          <a href="https://github.com/ceejaysuny/Weather_App" class="text-blue-500 hover:underline mt-4 inline-block">View on GitHub</a>
+        </div>
+
+    </div>
+  </section>
+   
+
+  <!-- Resume Section -->
+   <!--
+  <section id="resume" class="py-16 px-5 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-6">Resume</h2>
+    <a href="assets/Ekejimbe_Chijioke.pdf" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Download Resume</a>
+  </section>
+-->
+
+  <!-- Resume Section -->
+<section id="resume" class="py-16 px-5 bg-gray-100 text-center">
+  <h2 class="text-3xl font-bold mb-6">Download My Resume</h2>
+  <a href="assets/Ekejimbe_Chijioke.pdf" target="_blank" download="Ekejimbe_Chijioke_Resume.pdf" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Download Resume</a>
+</section>
+
+
+  <!-- Blog Section -->
+  <section id="blog" class="py-16 px-5 bg-white text-center">
+    <h2 class="text-3xl font-bold mb-6">Blog</h2>
+    <p>Coming soon!</p>
+  </section>
+
+  <!-- Contact Section -->
+  <!-- 
+  <section id = "contact" class="py-16 px-5 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-6">Contact</h2>
+    <form id="contactForm" action="/send" method="POST" class="max-w-md mx-auto">
+      <input type="text" name="name" placeholder="Your Name" class="w-full mb-4 p-3 border border-gray-300 rounded" required>
+      <input type="email" name="email" placeholder="Your Email" class="w-full mb-4 p-3 border border-gray-300 rounded" required>
+      <textarea name="message" placeholder="Your Message" class="w-full mb-4 p-3 border border-gray-300 rounded" required></textarea>
+      <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Send</button>
+    </form>
+  </section>
+  -->
+
+   <!-- Contact Section -->
+   <section id="contact" class="py-16 px-5 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-6">Contact</h2>
+    <form id="contactForm" action="https://formspree.io/f/mqaedyby" method="POST" class="max-w-md mx-auto">
+        <input type="text" name="name" placeholder="Your Name" class="w-full mb-4 p-3 border border-gray-300 rounded" required>
+        <input type="email" name="email" placeholder="Your Email" class="w-full mb-4 p-3 border border-gray-300 rounded" required>
+        <textarea name="message" placeholder="Your Message" class="w-full mb-4 p-3 border border-gray-300 rounded" required></textarea>
+        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Send</button>
+    </form>
+    <p id="responseMessage" class="mt-4"></p>
+</section>
+    
+<!--
+<form action="https://formspree.io/f/{your_form_id}" method="POST">
+    <input type="email" name="email" placeholder="Your email">
+    <textarea name="message" placeholder="Your message"></textarea>
+    <button type="submit">Send</button>
+</form>
+
+
+
+-->
+
+  <!-- Footer Section -->
+<footer class="bg-gray-900 text-white py-8">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Grid Layout -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- About Section -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">About</h3>
+        <p class="text-sm text-gray-400">
+          Hi, I'm Ekejimbe Chijioke, a passionate software developer specializing in creating innovative solutions to everyday challenges. Let's build something amazing together.
+        </p>
+      </div>
+      <!-- Quick Links Section -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li><a href="#about" class="hover:text-white">About</a></li>
+          <li><a href="#projects" class="hover:text-white">Projects</a></li>
+          <li><a href="#resume" class="hover:text-white">Resume</a></li>
+          <li><a href="#contact" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Social Media Section -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">Follow Me</h3>
+        <div class="flex space-x-4">
+          <a href="https://x.com/ceejaysunyt" target="_blank" class="text-gray-400 hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M24 4.557c-.883.392-1.833.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.722 0-4.932 2.21-4.932 4.932 0 .386.044.762.128 1.124C7.691 8.094 4.067 6.13 1.64 3.161c-.423.725-.666 1.562-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.062c0 2.386 1.697 4.374 3.946 4.826-.413.112-.849.171-1.296.171-.316 0-.626-.031-.927-.089.631 1.963 2.457 3.392 4.617 3.432-1.692 1.326-3.826 2.117-6.146 2.117-.399 0-.793-.023-1.182-.069C2.187 19.548 4.779 20 7.548 20c9.056 0 14.01-7.504 14.01-14.01 0-.213-.005-.425-.015-.636.961-.695 1.797-1.562 2.457-2.549z" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/ekejimbe-chijioke-6ba7306b/" target="_blank" class="text-gray-400 hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.447 20.452H17.327V15.439C17.327 14.318 17.309 12.931 15.869 12.931C14.41 12.931 14.19 13.986 14.19 15.356V20.452H11.069V9.762H13.99V10.987H14.042C14.448 10.287 15.314 9.525 16.734 9.525C19.614 9.525 20.447 11.336 20.447 14.02V20.452ZM5.337 8.291C4.428 8.291 3.685 7.548 3.685 6.639C3.685 5.731 4.428 4.988 5.337 4.988C6.246 4.988 6.989 5.731 6.989 6.639C6.989 7.548 6.246 8.291 5.337 8.291ZM6.814 20.452H3.865V9.762H6.814V20.452ZM22.225 0H1.771C.792 0 0 .772 0 1.722V22.277C0 23.228.792 24 1.771 24H22.225C23.2 24 24 23.228 24 22.277V1.722C24 .772 23.2 0 22.225 0Z" />
+            </svg>
+          </a>
+          <a href="https://github.com/ceejaysuny" target="_blank" class="text-gray-400 hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 .296c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.207 11.387.6.11.793-.259.793-.577v-2.015c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.744.084-.729.084-.729 1.204.084 1.838 1.235 1.838 1.235 1.07 1.834 2.809 1.304 3.495.997.108-.774.419-1.304.763-1.605-2.665-.305-5.466-1.334-5.466-5.933 0-1.31.465-2.381 1.235-3.222-.123-.304-.534-1.526.117-3.176 0 0 1.008-.323 3.3 1.233a11.5 11.5 0 013-.405c1.018.005 2.042.138 3 .405 2.292-1.556 3.3-1.233 3.3-1.233.651 1.65.24 2.872.118 3.176.77.841 1.234 1.912 1.234 3.222 0 4.61-2.805 5.624-5.476 5.922.43.372.814 1.105.814 2.223v3.293c0 .32.192.693.8.577C20.565 22.092 24 17.594 24 12.296 24 5.67 18.63.296 12 .296z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-500">
+      © 2024 Ekejimbe Chijioke. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
